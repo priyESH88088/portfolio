@@ -1,28 +1,39 @@
 export default function Projects() {
   return (
-    <div className="p-10">
+    <div className="p-10 text-white">
       <h2 className="text-3xl font-bold">Projects</h2>
 
-      <div className="mt-4 space-y-4">
+      <div className="mt-6 grid md:grid-cols-2 gap-4">
 
-        <div>
-          <h3 className="text-xl font-semibold">StudyNotion</h3>
-          <p className="text-gray-400">
-            Full-stack LMS with authentication, payments, and cloud storage.
+        {/* StudyNotion */}
+        <div className="p-4 bg-gray-800 rounded">
+          <h3 className="font-semibold text-xl">StudyNotion (MERN LMS)</h3>
+          <p className="text-gray-300 mt-2">
+            Full-stack learning platform with authentication, payments, and role-based access.
           </p>
         </div>
 
-        <div>
-          <h3 className="text-xl font-semibold">Task Manager</h3>
-          <p className="text-gray-400">
-            CRUD app using React and Redux Toolkit.
+        {/* File Sharing */}
+        <div className="p-4 bg-gray-800 rounded">
+          <h3 className="font-semibold text-xl">File Sharing App</h3>
+          <p className="text-gray-300 mt-2">
+            Secure file upload & sharing system using Node.js and cloud storage.
           </p>
         </div>
 
-        <div>
-          <h3 className="text-xl font-semibold">Weather App</h3>
-          <p className="text-gray-400">
-            Real-time weather dashboard using API.
+        {/* Job App */}
+        <div className="p-4 bg-gray-800 rounded">
+          <h3 className="font-semibold text-xl">Job Application Platform</h3>
+          <p className="text-gray-300 mt-2">
+            Job listing and application system with filtering and user management.
+          </p>
+        </div>
+
+        {/* Movie Search */}
+        <div className="p-4 bg-gray-800 rounded">
+          <h3 className="font-semibold text-xl">Movie Search App</h3>
+          <p className="text-gray-300 mt-2">
+            Real-time movie search using API integration and React frontend.
           </p>
         </div>
 
